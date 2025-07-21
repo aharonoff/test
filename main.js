@@ -9,3 +9,9 @@ function buttonClick() {
     clickCounter++;
     console.log(clickCounter);
 }
+
+let mySVG = document.getElementById('mySVG');
+
+mySVG.addEventListener('click', () => {
+    console.log('SVG is clicked');
+})
