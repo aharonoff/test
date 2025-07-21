@@ -6,5 +6,6 @@ function buttonClick() {
     } else {
       document.getElementById('myButton').style.backgroundColor = 'red';
     }
-      clickCounter++;
+    clickCounter++;
+    console.log(clickCounter);
 }
